@@ -1,2 +1,3 @@
-# lx-lib
-lx-lib
+```shell
+  lerna create utils
+```
