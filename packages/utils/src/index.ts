@@ -8,3 +8,4 @@ const createRandom = (num: number = 10) =>
     .slice(2, num + 2);
 
 export { sum, createRandom };
+export default { sum, createRandom };
