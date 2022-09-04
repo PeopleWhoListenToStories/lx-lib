@@ -1,0 +1,2 @@
+var t=function(){return[].slice.call(arguments).reduce(function(t,r){return t+r},0)},r=function(t){return void 0===t&&(t=10),Math.random().toString().slice(2,t+2)},n=function(t){return"[object String]"===Object.prototype.toString.call(t)},e=function(t){return"[object Number]"===Object.prototype.toString.call(t)},o={sum:t,isString:n,isNumber:e,createRandom:r};export{r as createRandom,o as default,e as isNumber,n as isString,t as sum};
+//# sourceMappingURL=index.module.js.map

@@ -10,5 +10,8 @@ const createRandom = (num: number = 10) =>
 const isString = (str: string): boolean =>
   Object.prototype.toString.call(str) === '[object String]';
 
-export { sum, isString, createRandom };
-export default { sum, isString, createRandom };
+const isNumber = (num: number): boolean =>
+  Object.prototype.toString.call(num) === '[object Number]';
+
+export { sum, isString, isNumber, createRandom };
+export default { sum, isString, isNumber, createRandom };

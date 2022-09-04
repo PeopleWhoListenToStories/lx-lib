@@ -1,4 +1,4 @@
-import { sum, createRandom } from '../src/index';
+import { sum, isString, isNumber, createRandom } from '../src/index';
 
 describe('utils', () => {
   it('tests sum', () => {
@@ -7,5 +7,13 @@ describe('utils', () => {
 
   it('tests createRandom', () => {
     expect(createRandom(10)).toHaveLength(10);
+  });
+
+  it('tests isString', () => {
+    expect(isString('123')).toBe(true);
+  });
+
+  it('tests isNumber', () => {
+    expect(isNumber(10)).toBe(true);
   });
 });

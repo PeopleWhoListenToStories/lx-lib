@@ -5,11 +5,15 @@
 ## Usage
 
 ```
-import { sum, createRandom } from '../src/index';
+import { sum, isString, isNumber, createRandom } from '../src/index';
 
 sum(1, 2, 3) // 6
 
 createRandom(10) // length 10
+
+isString('123') // true
+
+isNumber(456) // true
 
 // TODO: DEMONSTRATE API
 ```
