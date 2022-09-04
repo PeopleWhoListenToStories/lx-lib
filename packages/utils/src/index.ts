@@ -7,5 +7,8 @@ const createRandom = (num: number = 10) =>
     .toString()
     .slice(2, num + 2);
 
-export { sum, createRandom };
-export default { sum, createRandom };
+const isString = (str: string): boolean =>
+  Object.prototype.toString.call(str) === '[object String]';
+
+export { sum, isString, createRandom };
+export default { sum, isString, createRandom };

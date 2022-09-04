@@ -5,7 +5,10 @@
   "author": "",
   "homepage": "",
   "license": "ISC",
-  "main": "src/index.ts",
+  "source": "src/index.ts",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.modern.js",
+  "types": "dist/index.d.ts",
   "dependencies": {},
   "files": [
     "lib"
