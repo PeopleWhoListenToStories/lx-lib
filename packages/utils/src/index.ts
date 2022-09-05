@@ -14,5 +14,4 @@ const isNumber = (num: number): boolean =>
   Object.prototype.toString.call(num) === '[object Number]';
 
 export { sum, isString, isNumber, createRandom };
-
 export default { sum, isString, isNumber, createRandom };
