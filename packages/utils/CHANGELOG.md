@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/PeopleWhoListenToStories/lx-lib/compare/@lx/utils@1.3.0...@lx/utils@1.4.0) (2022-09-05)
+
+
+### Features
+
+* utils update docs ([43a5ccb](https://github.com/PeopleWhoListenToStories/lx-lib/commit/43a5ccb5987df90ce1978cb781181a95936b9191))
+
+
+
+
+
 # [1.3.0](https://github.com/PeopleWhoListenToStories/lx-lib/compare/@lx/utils@1.2.1...@lx/utils@1.3.0) (2022-09-05)
 
 
