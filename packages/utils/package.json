@@ -7,9 +7,10 @@
   "license": "ISC",
   "source": "./src/index.ts",
   "main": "lib/index.js",
-  "module": "lib/index.module.js",
+  "module": "lib/index.esm.js",
   "umd:main": "lib/index.umd.js",
-  "unpkg": "lib/index.min.js",
+  "unpkg": "lib/index.umd.js",
+  "types": "lib/index.d.ts",
   "exports": {
     ".": {
       "types": "./lib/index.d.ts",
@@ -20,7 +21,9 @@
     },
     "./package.json": "./package.json"
   },
-  "types": "./index.d.ts",
+  "exclude": [
+    "tests"
+  ],
   "files": [
     "lib"
   ],
@@ -31,6 +34,7 @@
     "registry": "http://localhost:4873"
   },
   "scripts": {
-    "dev": "microbundle"
+    "dev": "microbundle",
+    "build": "microbundle build --tsconfig tsconfig.build.json"
   }
 }
