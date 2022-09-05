@@ -34,7 +34,6 @@
     "registry": "http://localhost:4873"
   },
   "scripts": {
-    "dev": "microbundle",
-    "build": "microbundle build --tsconfig tsconfig.build.json"
+    "dev": "microbundle"
   }
 }
