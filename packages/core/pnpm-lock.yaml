@@ -1,0 +1,7 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@lx/utils': workspace:^1.9.0
+
+devDependencies:
+  '@lx/utils': link:../utils

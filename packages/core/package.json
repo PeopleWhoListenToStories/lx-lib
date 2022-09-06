@@ -1,0 +1,30 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "",
+  "homepage": "",
+  "license": "ISC",
+  "source": "./src/index.ts",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "umd:main": "lib/index.umd.js",
+  "unpkg": "lib/index.umd.js",
+  "types": "lib/index.d.ts",
+  "directories": {},
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "core"
+  ],
+  "publishConfig": {
+    "registry": "http://127.0.0.1:4873"
+  },
+  "scripts": {
+    "dev": "microbundle"
+  },
+  "devDependencies": {
+    "@lx/utils": "workspace:*"
+  }
+}
