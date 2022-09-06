@@ -1,1 +1,0 @@
-{"version":3,"file":"index.umd.js","sources":["../src/index.ts"],"sourcesContent":["const data = `this is core `;\r\n\r\nexport { data };\r\nexport default { data };\r\n"],"names":["data","index"],"mappings":"8NAAMA,IAAAA,EAAN,gBAGAC,EAAe,CAAED,KAAAA"}
