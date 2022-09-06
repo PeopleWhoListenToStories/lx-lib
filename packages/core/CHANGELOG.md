@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/PeopleWhoListenToStories/lx-lib/compare/@lx/core@1.2.0...@lx/core@1.3.0) (2022-09-06)
+
+
+### Features
+
+* core update package.json ([2f127af](https://github.com/PeopleWhoListenToStories/lx-lib/commit/2f127af83a11190eb3667a8f7efb0bfd022aeaf8))
+
+
+
+
+
 # 1.2.0 (2022-09-06)
 
 
