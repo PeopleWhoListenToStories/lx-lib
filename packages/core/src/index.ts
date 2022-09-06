@@ -1,4 +1,4 @@
-const data = `this is core `;
+const data = `this is core`;
 
 export { data };
 export default { data };
