@@ -1,2 +1,2 @@
-var a="this is core",s={data:"this is core"};export{a as data,s as default};
+var a="this is core ",t={data:a};export{a as data,t as default};
 //# sourceMappingURL=index.esm.js.map

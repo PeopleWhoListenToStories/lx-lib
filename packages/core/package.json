@@ -23,8 +23,5 @@
   },
   "scripts": {
     "dev": "microbundle"
-  },
-  "devDependencies": {
-    "@lx/utils": "workspace:*"
   }
 }

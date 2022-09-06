@@ -1,5 +1,4 @@
-import { createRandom } from '@lx/utils';
-const data = `this is core ${createRandom(3)}`;
+const data = `this is core `;
 
 export { data };
 export default { data };
