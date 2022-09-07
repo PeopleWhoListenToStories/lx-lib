@@ -1,0 +1,2 @@
+!function(e,o){"object"==typeof exports&&"undefined"!=typeof module?o(exports):"function"==typeof define&&define.amd?define(["exports"],o):o((e||self).core={})}(this,function(e){var o="this is core",n=function(){return new Promise(function(e,o){setTimeout(function(){Math.random()>.5?e({user:"lx",error:null}):o({user:"lx-error",error:new Error("出错了")})},1e3)})},r={data:o,normalTask:n};e.data=o,e.default=r,e.normalTask=n});
+//# sourceMappingURL=index.umd.js.map
