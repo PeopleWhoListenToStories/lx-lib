@@ -1,0 +1,34 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "> TODO: 这是一个测试流程的包",
+  "author": "leixu <779647751@qq.com>",
+  "homepage": "https://github.com/PeopleWhoListenToStories/lx-lib#readme",
+  "license": "ISC",
+  "source": "./src/index.js",
+  "main": "lib/index.js",
+  "directories": {
+    "vue": "3.2.5"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "test",
+    "demo",
+    "verdaccio-test"
+  ],
+  "publishConfig": {
+    "registry": "http://127.0.0.1:4873"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeopleWhoListenToStories/lx-lib.git"
+  },
+  "scripts": {
+    "dev": "microbundle"
+  },
+  "bugs": {
+    "url": "https://github.com/PeopleWhoListenToStories/lx-lib/issues"
+  }
+}
