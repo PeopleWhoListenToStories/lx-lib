@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "@lx/test",
   "version": "1.0.0",
   "description": "> TODO: 这是一个测试流程的包",
   "author": "leixu <779647751@qq.com>",
@@ -30,5 +30,6 @@
   },
   "bugs": {
     "url": "https://github.com/PeopleWhoListenToStories/lx-lib/issues"
-  }
+  },
+  "gitHead": "f6df6e65b48d03f98605ff0a3b1c631bb387cfc9"
 }
