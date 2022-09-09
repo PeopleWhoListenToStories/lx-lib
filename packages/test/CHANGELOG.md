@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.7](https://github.com/PeopleWhoListenToStories/lx-lib/compare/@lx/test@1.1.6...@lx/test@1.1.7) (2022-09-09)
+
+
+### Bug Fixes
+
+* update ([adf58a0](https://github.com/PeopleWhoListenToStories/lx-lib/commit/adf58a0f4d3827b0aa105a2f38dc33134b2ef972))
+
+
+
+
+
 ## [1.1.6](https://github.com/PeopleWhoListenToStories/lx-lib/compare/@lx/test@1.1.5...@lx/test@1.1.6) (2022-09-09)
 
 
