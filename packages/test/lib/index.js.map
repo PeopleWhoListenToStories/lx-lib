@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/index.js"],"sourcesContent":["'use strict';\r\n\r\nmodule.exports = test;\r\n\r\nfunction test() {\r\n    return \"Hello from test\";\r\n}"],"names":["module","exports"],"mappings":"AAEAA,OAAOC,QAEP,WACI,MAAO,iBACV"}
